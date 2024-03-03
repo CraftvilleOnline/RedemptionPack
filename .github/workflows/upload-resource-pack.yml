@@ -4,6 +4,8 @@ on:
   push:
     branches: [master]
 
+permissions: write-all
+
 jobs:
   upload-resource-pack:
     if: "!contains(github.event.commits[0].message, '[ci-skip]')"
