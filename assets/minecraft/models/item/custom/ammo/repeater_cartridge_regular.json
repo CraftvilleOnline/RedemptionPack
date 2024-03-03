@@ -1,0 +1,9 @@
+{
+	"credit": "Made by Jazzkuh with Blockbench",
+	"parent": "item/custom/ammo/revolver_cartridge",
+	"textures": {
+		"0": "custom/ammo/cardboard",
+		"1": "custom/ammo/repeater_cartridge_regular",
+		"particle": "custom/ammo/cardboard"
+	}
+}

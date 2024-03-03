@@ -1,0 +1,104 @@
+{
+  "weapon.empty": {
+    "category": "player",
+    "sounds": [
+      "empty"
+    ]
+  },
+  "revolver.shot": {
+    "category": "player",
+    "sounds": [
+      "revolver/shot"
+    ]
+  },
+  "revolver.shot_scofield": {
+    "category": "player",
+    "sounds": [
+      "revolver/shot_scofield"
+    ]
+  },
+  "revolver.reload": {
+    "category": "player",
+    "sounds": [
+      "revolver/reload"
+    ]
+  },
+  "shotgun.shot": {
+    "category": "player",
+    "sounds": [
+      "shotgun/shot"
+    ]
+  },
+  "shotgun.shot_pump": {
+    "category": "player",
+    "sounds": [
+      "shotgun/shot_pump"
+    ]
+  },
+  "shotgun.reload": {
+    "category": "player",
+    "sounds": [
+      "shotgun/reload"
+    ]
+  },
+  "shotgun.reload_pump": {
+    "category": "player",
+    "sounds": [
+      "shotgun/reload_pump"
+    ]
+  },
+  "rifle.reload": {
+    "category": "player",
+    "sounds": [
+      "rifle/reload"
+    ]
+  },
+  "rifle.shot": {
+    "category": "player",
+    "sounds": [
+      "rifle/shot"
+    ]
+  },
+  "repeater.reload": {
+    "category": "player",
+    "sounds": [
+      "repeater/reload"
+    ]
+  },
+  "repeater.shot": {
+    "category": "player",
+    "sounds": [
+      "repeater/shot"
+    ]
+  },
+  "repeater.reload_carbine": {
+    "category": "player",
+    "sounds": [
+      "repeater/reload_carbine"
+    ]
+  },
+  "repeater.shot_carbine": {
+    "category": "player",
+    "sounds": [
+      "repeater/shot_carbine"
+    ]
+  },
+  "deadeye.start": {
+    "category": "player",
+    "sounds": [
+      "deadeye_start"
+    ]
+  },
+  "deadeye.tick": {
+    "category": "player",
+    "sounds": [
+      "deadeye_tick"
+    ]
+  },
+  "deadeye.end": {
+    "category": "player",
+    "sounds": [
+      "deadeye_end"
+    ]
+  }
+}

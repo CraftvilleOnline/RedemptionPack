@@ -1,0 +1,39 @@
+{
+	"credit": "Made by Jazzkuh with Blockbench",
+	"parent": "item/custom/weapon/winchester",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [0.25, 0, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [0.25, 0, 0.75],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 90, 0],
+			"translation": [-9, 5.75, 5.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, -90, 0],
+			"translation": [-4.25, 5.75, 5.75],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"translation": [-3.25, 3, 0],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"gui": {
+			"rotation": [0, 180, 30],
+			"translation": [3, -1.75, 0],
+			"scale": [0.53, 0.53, 0.53]
+		},
+		"fixed": {
+			"translation": [-4.25, -0.75, 0],
+			"scale": [0.6, 0.6, 0.6]
+		}
+	}
+}

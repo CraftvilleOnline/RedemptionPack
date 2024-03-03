@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:serif.ttf",
+            "shift": [0, 19],
+            "size": 14.0,
+            "oversample": 10.0
+        }
+    ]
+}

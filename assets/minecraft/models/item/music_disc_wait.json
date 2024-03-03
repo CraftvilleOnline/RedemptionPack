@@ -1,0 +1,18 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/music_disc_wait"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 18001}, "model": "item/custom/furniture/plant_large"},
+        {"predicate": {"custom_model_data": 18002}, "model": "item/custom/furniture/tree_large"},
+        {"predicate": {"custom_model_data": 18003}, "model": "item/custom/furniture/large_flower_1"},
+        {"predicate": {"custom_model_data": 18004}, "model": "item/custom/furniture/large_flower_2"},
+        {"predicate": {"custom_model_data": 18005}, "model": "item/custom/furniture/campfire"},
+        {"predicate": {"custom_model_data": 18006}, "model": "item/custom/furniture/chair"},
+        {"predicate": {"custom_model_data": 18007}, "model": "item/custom/furniture/bush"},
+        {"predicate": {"custom_model_data": 18008}, "model": "item/custom/furniture/plank_floor"},
+        {"predicate": {"custom_model_data": 18009}, "model": "item/custom/furniture/plank_inclined"},
+        {"predicate": {"custom_model_data": 18010}, "model": "item/custom/furniture/plank_stacked"}
+    ]
+}

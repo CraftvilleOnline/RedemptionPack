@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/custom_template_trapdoor_open",
+    "textures": {
+        "texture": "minecraft:block/mangrove_trapdoor",
+        "edge": "minecraft:block/mangrove_trapdoor_edge"
+    }
+}

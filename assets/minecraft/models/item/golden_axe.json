@@ -1,0 +1,23 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "minecraft:item/golden_axe"
+    },
+    "overrides": [
+        {"predicate": { "custom_model_data": 18001 }, "model": "item/custom/weapon/cattleman_revolver"},
+        {"predicate": { "custom_model_data": 18002 }, "model": "item/custom/weapon/revolver"},
+        {"predicate": { "custom_model_data": 18003 }, "model": "item/custom/weapon/shotgun"},
+        {"predicate": { "custom_model_data": 18004 }, "model": "item/custom/weapon/doublebarrel"},
+        {"predicate": { "custom_model_data": 18005 }, "model": "item/custom/weapon/winchester"},
+        {"predicate": { "custom_model_data": 18006 }, "model": "item/custom/weapon/winchester_1890"},
+        {"predicate": { "custom_model_data": 18007 }, "model": "item/custom/weapon/carbine"},
+        
+        {"predicate": { "custom_model_data": 20001 }, "model": "item/custom/weapon/cattleman_revolver_primed"},
+        {"predicate": { "custom_model_data": 20002 }, "model": "item/custom/weapon/revolver_primed"},
+        {"predicate": { "custom_model_data": 20003 }, "model": "item/custom/weapon/shotgun_primed"},
+        {"predicate": { "custom_model_data": 20004 }, "model": "item/custom/weapon/doublebarrel_primed"},
+        {"predicate": { "custom_model_data": 20005 }, "model": "item/custom/weapon/winchester_primed"},
+        {"predicate": { "custom_model_data": 20006 }, "model": "item/custom/weapon/winchester_1890_primed"},
+        {"predicate": { "custom_model_data": 20007 }, "model": "item/custom/weapon/carbine_primed"}
+    ]
+}

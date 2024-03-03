@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/template_potted_azalea_bush",
+    "textures": {
+        "top": "minecraft:block/potted_azalea_bush_top",
+        "side": "minecraft:block/potted_azalea_bush_side",
+        "particle": "minecraft:block/flower_pot1",
+        "flower_pot": "minecraft:block/flower_pot1"
+    }
+}

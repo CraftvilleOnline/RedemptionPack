@@ -1,0 +1,9 @@
+{
+	"credit": "Made by Jazzkuh with Blockbench",
+	"parent": "item/custom/ammo/revolver_cartridge",
+	"textures": {
+		"0": "custom/ammo/cardboard",
+		"1": "custom/ammo/rifle_cartridge_high_velocity",
+		"particle": "custom/ammo/cardboard"
+	}
+}

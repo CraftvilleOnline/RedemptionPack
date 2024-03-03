@@ -1,0 +1,51 @@
+{
+	"credit": "Made by Jazzkuh with Blockbench",
+	"texture_size": [128, 128],
+	"textures": {
+		"0": "block/jungle_planks",
+		"particle": "block/jungle_planks"
+	},
+	"elements": [
+		{
+			"name": "plank",
+			"from": [6.06, -0.152, -16],
+			"to": [13.24, 1.934, 32],
+			"rotation": {"angle": -45, "axis": "x", "origin": [6.53, 0.294, 3.59]},
+			"faces": {
+				"north": {"uv": [4, 16, 3, 14], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [4, 16, 3, 2], "rotation": 270, "texture": "#0"},
+				"south": {"uv": [16, 1, 14, 0], "texture": "#0"},
+				"west": {"uv": [4, 16, 3, 2], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [4, 16, 2, 2], "texture": "#0"},
+				"down": {"uv": [4, 16, 2, 2], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [138, -4, -11],
+			"translation": [-0.25, -2, 0.25],
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"rotation": [-13, -180, 0],
+			"translation": [4.5, 0, 0]
+		},
+		"ground": {
+			"rotation": [25, 0, 0],
+			"translation": [0, 5.5, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [162, -157, -19],
+			"translation": [-0.25, -2.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"translation": [0, -21.5, 5]
+		}
+	}
+}

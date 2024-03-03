@@ -1,0 +1,11 @@
+{
+    "providers": [
+        {
+            "type": "ttf",
+            "file": "minecraft:lino-regular.ttf",
+            "shift": [0, 1.45],
+            "size": 9.0,
+            "oversample": 10.0
+        }
+    ]
+}
