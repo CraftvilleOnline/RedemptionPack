@@ -17,7 +17,7 @@ jobs:
           fetch-depth: 0
 
       - name: Run PackSquash
-        uses: ComunidadAylas/PackSquash-action@v3
+        uses: ComunidadAylas/PackSquash-action@v4
         with:
           validate_pack_metadata_file: false
           automatic_minecraft_quirks_detection: false
