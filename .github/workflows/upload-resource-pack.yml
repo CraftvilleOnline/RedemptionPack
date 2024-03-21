@@ -16,20 +16,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Run PackSquash
-        uses: ComunidadAylas/PackSquash-action@v3
-        with:
-          validate_pack_metadata_file: false
-          automatic_minecraft_quirks_detection: false
-          automatic_asset_types_mask_detection: false
+      - name: Install zip
+        run: sudo apt-get update && sudo apt-get -y install zip
 
-      - name: Download optimized pack
-        uses: actions/download-artifact@v3
-        with:
-          name: Optimized pack
-
-      - name: Rename pack file
-        run: mv pack.zip Redemption-v${{ github.run_number }}.zip
+      - name: Zip contents of repository
+        run: |
+          zip -r Redemption-v${{ github.run_number }}.zip assets/ credits.txt pack.mcmeta pack.png 
 
       - name: Tag and create release
         uses: softprops/action-gh-release@v1
