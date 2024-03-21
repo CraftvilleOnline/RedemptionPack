@@ -32,7 +32,7 @@ jobs:
         run: mv pack.zip Redemption-v${{ github.run_number }}.zip
 
       - name: Tag and create release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ResourcePack-v${{ github.run_number }}
           files: Redemption-v${{ github.run_number }}.zip
