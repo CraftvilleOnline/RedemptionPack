@@ -12,19 +12,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
-
       - name: Install zip
         run: sudo apt-get update && sudo apt-get -y install zip
-
       - name: Zip contents of repository
         run: |
           zip -r Redemption-v${{ github.run_number }}.zip assets/ credits.txt pack.mcmeta pack.png 
 
       - name: Tag and create release
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v2
         with:
           tag_name: ResourcePack-v${{ github.run_number }}
           files: Redemption-v${{ github.run_number }}.zip
