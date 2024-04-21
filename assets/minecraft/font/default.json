@@ -1803,6 +1803,13 @@
       "type": "bitmap",
       "file": "minecraft:custom/icons/space.png",
       "ascent": -32768,
+      "height": -3,
+      "chars": [""]
+    },
+    {
+      "type": "bitmap",
+      "file": "minecraft:custom/icons/space.png",
+      "ascent": -32768,
       "height": 0,
       "chars": [""]
     },
